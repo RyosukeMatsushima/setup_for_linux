@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install curl
 curl https://get.docker.com | sh
 sudo usermod -aG docker $USER
 sudo systemctl start docker
